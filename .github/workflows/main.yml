@@ -27,5 +27,5 @@ jobs:
           cache: "pnpm"
       - name: Restore modules
         run: pnpm install --frozen-lockfile
-        run: |
+      - run: |
           pnpm run build
