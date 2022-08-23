@@ -1,0 +1,27 @@
+{
+    "name": "pantsu",
+    "description": "Utilities for JS projects",
+    "version": "1.0.0",
+    "license": "MPL-2.0",
+    "packageManager": "pnpm@7.9.3",
+    "main": "dist/index.js",
+    "module": "dist/index.module.js",
+    "source": "src/index.ts",
+    "files": [
+        "dist/**/*"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TeraNovaLP/Pantsu.git"
+    },
+    "keywords": [
+        "utilities"
+    ],
+    "scripts": {
+        "build": "microbundle --format cjs,esm --compress"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.4",
+        "microbundle": "^0.15.1"
+    }
+}
