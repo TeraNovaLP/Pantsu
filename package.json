@@ -1,7 +1,7 @@
 {
     "name": "pantsu",
     "description": "Utilities for JS projects",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "license": "MPL-2.0",
     "packageManager": "pnpm@7.9.3",
     "main": "dist/index.js",
