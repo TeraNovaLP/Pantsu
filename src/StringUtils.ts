@@ -7,6 +7,10 @@ export default class StringUtils {
         return str1?.toLowerCase() == str2?.toLowerCase();
     }
 
+    public static includesIgnoreCase(source: string, includes: string) {
+        return source?.toLowerCase()?.includes(includes?.toLowerCase());
+    }
+
     /**
      * Checks if the string could be parsed as JSON.
      */
