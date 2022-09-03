@@ -2,4 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 
-export { default as StringUtils } from "./StringUtils";
+import StringUtils from "./StringUtils";
+import UrlUtils from "./UrlUtils";
+
+export { StringUtils, UrlUtils };
