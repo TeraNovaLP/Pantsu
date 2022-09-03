@@ -18,10 +18,24 @@
         "utilities"
     ],
     "scripts": {
-        "build": "microbundle --format cjs,esm --compress"
+        "build": "microbundle --format cjs,esm --compress",
+        "test": "ava"
     },
     "devDependencies": {
         "typescript": "^4.7.4",
-        "microbundle": "^0.15.1"
+        "microbundle": "^0.15.1",
+        "ts-node": "^10.9.1",
+        "ava": "^4.3.3"
+    },
+    "ava": {
+        "files": [
+            "test/**/*"
+        ],
+        "extensions": [
+            "ts"
+        ],
+        "require": [
+            "ts-node/register"
+        ]
     }
 }
