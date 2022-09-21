@@ -1,5 +1,5 @@
 <h1 align="center">
-:cherry_blossom: Pantsu :cherry_blossom:
+🌸 Pantsu 🌸
 </h1>
 
 [![ci](https://github.com/TeraNovaLP/Pantsu/workflows/CI/badge.svg)](https://github.com/TeraNovaLP/Pantsu/commits/master)
@@ -11,7 +11,7 @@ Utilities for JS projects. **/^o^/**
 ## Usage
 ### Installation
 ```
-npm install pantsu
+npm/pnpm install pantsu
 ```
 
 ### Importing and usage
@@ -30,3 +30,4 @@ pnpm install
 Build:
 ```
 pnpm run build
+```
