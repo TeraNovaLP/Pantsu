@@ -14,6 +14,7 @@
         "type": "git",
         "url": "git+https://github.com/TeraNovaLP/Pantsu.git"
     },
+    "homepage": "https://teranovalp.github.io/Pantsu/",
     "keywords": [
         "utilities"
     ],
